@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home a {
+    margin-top: 1em;
+    max-width: 200px;
+}
+
+.home h2 {
+    font-size: 18px;
+}

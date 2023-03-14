@@ -1,0 +1,38 @@
+.form_inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_inputs h2 {
+    text-align: center;
+}
+
+.form_inputs label {
+    margin: 1em 0;
+    display: block;
+}
+
+.form_inputs label span {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.form_inputs input {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.form_inputs button,
+.form_inputs a {
+    width: 200px;
+}

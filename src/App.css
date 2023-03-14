@@ -1,0 +1,14 @@
+.App {
+    border: 3px solid #d44139;
+    padding: 1em;
+    width: 100%;
+    max-width: 550px;
+    background-color: #1117dc;
+}
+
+.App h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #d2cbcb;
+    color: #d2cbcb;
+}
