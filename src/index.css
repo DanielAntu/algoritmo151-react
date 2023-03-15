@@ -33,3 +33,7 @@ body {
 .btn:hover {
     background-color: #db0c01db;
 }
+
+.bold {
+    font-weight: bold;
+}

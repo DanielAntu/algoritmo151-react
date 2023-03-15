@@ -2,8 +2,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Form from "./pages/Form";
-import Results from "./pages/Results";
 import { ImcContextProvider } from "./context/ImcContext";
+import Results from "./pages/Results";
 
 function App() {
     return (

@@ -29,19 +29,20 @@ const Form = () => {
                         id="weight"
                         placeholder="Digite seu peso"
                         required
-                        value={weight}
+                        //value={weight}
                         onChange={(e) => setWeight(e.target.value)}
                     />
                 </label>
                 <label>
                     <span>Altura:</span>
                     <input
-                        type="number"
+                        type="text"
                         name="height"
                         id="height"
                         placeholder="Digite Sua altura"
                         required
-                        value={height}
+                        pattern="^[0-9]{1}.[0-9]{2}$"
+                        //value={height}
                         onChange={(e) => setHeight(e.target.value)}
                     />
                 </label>
